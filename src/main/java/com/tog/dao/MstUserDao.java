@@ -15,5 +15,5 @@ public interface MstUserDao extends JpaRepository<MstUser, Integer> {
 	public List<MstUser> findByUsernameAndPassword(
 			@Param("username") String username,
 			@Param("password") String password);
-
+//----
 }
